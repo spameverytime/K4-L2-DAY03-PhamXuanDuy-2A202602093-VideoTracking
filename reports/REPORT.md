@@ -27,16 +27,16 @@ Ba tình huống khó nhất khi gán clip này, và bạn xử lý thế nào:
 
 Ba lượt tua bắt được gì (lượt 1 nhìn ID, lượt 2 frame đầu/cuối, lượt 3 frame giữa):
 
-- Lượt 1: `Tua nhanh toàn bộ clip ở tốc độ cao, mắt chỉ tập trung nhìn con số ID trên bbox; xác nhận cả 8 track đều duy trì ID ổn định, không bị nhấp nháy hay đổi số giữa các xe (0 ID switch).`
-- Lượt 2: `Kiểm tra kỹ frame đầu tiên xuất hiện và frame cuối cùng trước khi rời khung của từng track; phát hiện và loại bỏ các bbox bị treo lơ lửng ngoài rìa ảnh do quên bấm outside.`
-- Lượt 3: `Tua vào các frame nằm ở khoảng giữa hai keyframe xa nhau; chỉnh lại các bbox bị trôi lệch hình học (interpolation drift) tại các đoạn xe tăng tốc hoặc chuyển hướng.`
+- Lượt 1: `...`
+- Lượt 2: `...`
+- Lượt 3: `...`
 
-Kiểm chéo với: `Lê Hoàng Nam (MSSV: 232030333)`. Chi tiết ở `reports/review_partner.md`.
-Số lỗi bạn tìm được trong bản của bạn ấy: `3`. Số lỗi bạn ấy tìm được trong bản của bạn: `3`.
+Kiểm chéo với: `...`. Chi tiết ở `reports/review_partner.md`.
+Số lỗi bạn tìm được trong bản của bạn ấy: `...`. Số lỗi bạn ấy tìm được trong bản của bạn: `...`.
 
 Ca nào hai người quyết khác nhau, và luật nào còn thiếu trong `GUIDELINE_MINI.md`?
 
-`Hai người có quyết định khác nhau ở thời điểm bắt đầu gán track cho xe xuất hiện ở xa (track 6, frame 86 vs 101) và mức độ co bbox khi xe bị che khuất (track 5, frame 84–89). Luật còn thiếu trong GUIDELINE_MINI.md là định lượng rõ kích thước tối thiểu (bounding box size >= 15x15 px) và tỷ lệ nhìn thấy (visibility ratio >= 20%) trước khi kích hoạt track mới.`
+`...`
 
 ## 3. Pre-gold lock và chấm trước/sau rework
 
