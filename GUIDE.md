@@ -196,12 +196,12 @@ rõ. Đó là phát hiện giá trị nhất của bước này. Ghi vào `repor
 
 ### Reviewer checklist
 
-- [ ] Số track khớp với số xe đếm được khi xem clip bằng mắt
-- [ ] Mọi track có frame đầu và frame cuối hợp lý — không treo, không cắt sớm
-- [ ] Không có ID nào xuất hiện hai lần trong cùng một frame
-- [ ] Xe bị che rồi hiện lại vẫn giữ nguyên ID
-- [ ] Export đúng MOT 1.1; số ID khác nhau khớp với số track
-- [ ] Mọi ca không rõ đều được ghi lại trong `GUIDELINE_MINI.md`
+- [x] Số track khớp với số xe đếm được khi xem clip bằng mắt
+- [x] Mọi track có frame đầu và frame cuối hợp lý — không treo, không cắt sớm
+- [x] Không có ID nào xuất hiện hai lần trong cùng một frame
+- [x] Xe bị che rồi hiện lại vẫn giữ nguyên ID
+- [x] Export đúng MOT 1.1; số ID khác nhau khớp với số track
+- [x] Mọi ca không rõ đều được ghi lại trong `GUIDELINE_MINI.md`
 
 ---
 
